@@ -7,8 +7,14 @@
 
 int main()
 {
-    int remainder, number = 0, decimal_number = 0, temp = 1;
-    printf("\n Enter any binary number= ");
+	//defining variables seperated is more suitable in order not to face an unexpected error.
+    int remainder;
+	int number = 0; 
+	int decimal_number = 0;
+	int temp = 1;
+	
+    printf("\n Enter any binary number =  ");
+	
     scanf("%d", &number);
 
     // Iterate over the number until the end.

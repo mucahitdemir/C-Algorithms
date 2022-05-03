@@ -5,7 +5,10 @@
 
 int main()
 {
-    long int binary, hexa = 0, i = 1, remainder;
+    long int binary
+	long int hexa = 0;
+	long int i = 1;
+	long int remainder;
 
     printf("Enter the binary number: ");
     scanf("%ld", &binary);
