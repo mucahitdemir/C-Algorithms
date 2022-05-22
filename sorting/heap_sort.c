@@ -4,8 +4,7 @@ void max_heapify(int *a, int i, int n);
 void heapsort(int *a, int n);
 void build_maxheap(int *a, int n);
 
-void max_heapify(int *a, int i, int n)
-{
+void max_heapify(int *a, int i, int n){
     int j, temp;
     temp = a[i];
     j = 2 * i;
@@ -27,8 +26,7 @@ void max_heapify(int *a, int i, int n)
     return;
 }
 
-void heapsort(int *a, int n)
-{
+void heapsort(int *a, int n){
     int i, temp;
     for (i = n; i >= 2; i--)
     {
@@ -39,8 +37,7 @@ void heapsort(int *a, int n)
     }
 }
 
-void build_maxheap(int *a, int n)
-{
+void build_maxheap(int *a, int n){
     int i;
     for (i = n / 2; i >= 1; i--)
     {
@@ -48,8 +45,7 @@ void build_maxheap(int *a, int n)
     }
 }
 
-int main()
-{
+int main(){
     int n, i;
     printf("Enter number of elements of array\n");
     scanf("%d", &n);
